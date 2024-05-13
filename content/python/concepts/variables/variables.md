@@ -39,6 +39,13 @@ user_id = 100
 verified = False
 ```
 
+These are all invalid variable names:
+```py
+1stName = "Bill" (variables cannot start with a number)
+user name = "@Bill123" (variables cannot contain the space character)
+test% = 50 (variables can only contain alphanumeric characters or an underscore, % is not allowed)
+```
+
 A variable's value can be changed after assignment
 
 ```codebyte/py
